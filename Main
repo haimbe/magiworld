@@ -3,8 +3,11 @@ public static void main(String[] args){
       displayGuerrierName();
       displayParameters();
       warriorParameters();
+      warrior1();
       player2();
       displayGuerrierName();
       displayParameters();
       warriorParameters();
+      warrior2();
+      joueur1Début();
       }

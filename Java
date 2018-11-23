@@ -70,18 +70,17 @@ public void displayGuerrierIntelligence(int nbIntelligence){
     * Parameters checking
     */
 public void warriorParameters(){
-    if (intelligence+agilité+force<niveau){
-    if (name==1){
+    if while (intelligence+agilité+force>niveau){
+        system.out.println ("la somme de intelligence, agilité et force dépasse votre niveau, vous devez recommencer")+ displayParameters();}
+    else if (name==1){
         system.out.println ("Woarg je suis le ") + guerrier.look;}
         else if (name==2) {
         system.out.println ("Waah je suis le ") + guerrier.look;}
         else {
         system.out.println ("Abracadabra je suis le ")+ guerrier.look
         }
-     else {
-        system.out.println ("la somme de intelligence, agilité et force dépasse votre niveau, vous devez recommencer")+ displayParameters();}
+
      }
-}
 
 
 /**
@@ -92,4 +91,81 @@ public class void player2(int nbGuerrier) {
     system.out.println("Création du personnage du Joueur 2 %n Veuillez choisir la classe de votre personnage (1 : Guerrier, 2: Rôdeur, 3  : Mage)";
 }
 
+    /**
+    *enregistrement des parametres dans des variables pour le joueur 1
+    */
+public void warrior1(){
+    int niveau1==nbNiveau;
+    int vitalité1=nbVitalité;
+    int force1=nbForce;
+    int Agilité1==nbAgilité;
+    int Intelligence1==nbIntelligence1;
+}
+
+    /**
+    *enregistrement des parametres dans des variables pour le joueur 2
+    */
+public void warrior2(){
+    int niveau2==nbNiveau;
+    int vitalité2=nbVitalité;
+    int force2=nbForce;
+    int Agilité2==nbAgilité;
+    int Intelligence2==nbIntelligence1;
+}
+
+    /**
+    * Début du jeu
+    */
+public void joueur1Début(int attaque, int player1.player){
+    system.out.println("Joueur 1 "+"("vitalité1")"+"veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale)";
+    if (int player1.player = 1) {
+        switch (attaque){
+            case 1:
+                system.out.println("Joueur 1 utilise Coup d'Epée et inflige "+force1+" dommages.");
+                int force2==(force2-force1);
+                break;
+            case 2:
+                system.out.println("Joueur 1 utilise Coup de rage et inflige "+force1*2+" dommages.");
+                int force2==(force2-(force1*2));
+                int vitalité1==vitalité1-(force1/2);
+                break;
+                }
+       else if (int player1.player = 2) {
+        switch (attaque){
+            case 1:
+                system.out.println("Joueur 1 utilise Tire à l'Arc et inflige "+agilité1+" dommages.");
+                int force2==(force2-agilité1);
+                break;
+            case 2:
+                system.out.println("Joueur 1 utilise Concentration et inflige "+niveau1/2+" dommages.");
+                int agilité2==(agilité2-(niveau1/2));
+                break;
+                }
+            else {
+        switch (attaque){
+            case 1:
+                system.out.println("Joueur 1 utilise Boule de Feu et inflige "+intelligence1+" dommages.");
+                int force2==(force2-intelligence1);
+                break;
+                case 2:
+                if ((int intelligence1*2+ int vitalité1)<warrior1.nbvitalité){
+                    vitalité1==intelligence1*2+vitalité1;
+                else {
+                    vitalité1==warrior1.nbvitalité;
+                }
+                break;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+}
 

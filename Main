@@ -1,0 +1,10 @@
+public static void main(String[] args){
+      player1();
+      displayGuerrierName();
+      displayParameters();
+      warriorParameters();
+      player2();
+      displayGuerrierName();
+      displayParameters();
+      warriorParameters();
+      }

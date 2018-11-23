@@ -1,0 +1,95 @@
+    /**
+    *creation du personnage 1
+    */
+public class void player1(int nbGuerrier) {
+    int player==1;
+    system.out.println("Création du personnage du Joueur 1 %n Veuillez choisir la classe de votre personnage (1 : Guerrier, 2: Rôdeur, 3  : Mage)";
+}
+
+public class Guerrier {
+    private String name;
+    private int niveau;
+    private int vitalité;
+    private int force;
+    private int agilité;
+    private int intelligence;
+
+        public void look(){
+        System.out.println(String.format(name+ " Joueur "+ player +" niveau "+ niveau + " je possède " + vitalité +" de vitalité," + force +" de force," + agilité + " d'agilité et " intelligence + " d'intelligence !"
+    }
+}
+
+public void displayGuerrierName(int nbGuerrier){
+    if (nbGuerrier==1 || nbGuerrier==2 || nbGuerrier==3 ){
+        name==nbGuerrier + system.out.println(name);}
+    else {
+    system.out.println ("Vous devez choisir un nombre entre 1 et 3");}
+    }
+
+
+    /**
+    * Display all parameters of the warrior
+    */
+public void displayParameters(){
+public void displayGuerrierNiveau(int nbNiveau){
+    if ( 0<nbNiveau<101 ){
+        niveau==nbNiveau + system.out.println(niveau);}
+    else {
+    system.out.println ("Vous devez choisir un nombre entre 1 et 100");}
+    }
+
+public void displayGuerrierVitalité(){
+    int vitalité == niveau*5 ;
+    system.out.println (vitalité);}
+    }
+
+public void displayGuerrierForce(int nbForce){
+    if ( 0<=nbForce<101 ){
+        force==nbForce + system.out.println(force);}
+    else {
+    system.out.println ("Vous devez choisir un nombre entre 0 et 100");}
+    }
+
+public void displayGuerrierAgilité(int nbAgilité){
+    if ( 0<=nbAgilité<101 ){
+        agilité==nbAgilité + system.out.println(agilité);}
+    else {
+    system.out.println ("Vous devez choisir un nombre entre 0 et 100");}
+    }
+
+public void displayGuerrierIntelligence(int nbIntelligence){
+    if ( 0<=nbIntelligence<101 ){
+        intelligence==nbIntelligence + system.out.println(intelligence);}
+    else {
+    system.out.println ("Vous devez choisir un nombre entre 0 et 100");}
+    }
+}
+}
+
+    /**
+    * Parameters checking
+    */
+public void warriorParameters(){
+    if (intelligence+agilité+force<niveau){
+    if (name==1){
+        system.out.println ("Woarg je suis le ") + guerrier.look;}
+        else if (name==2) {
+        system.out.println ("Waah je suis le ") + guerrier.look;}
+        else {
+        system.out.println ("Abracadabra je suis le ")+ guerrier.look
+        }
+     else {
+        system.out.println ("la somme de intelligence, agilité et force dépasse votre niveau, vous devez recommencer")+ displayParameters();}
+     }
+}
+
+
+/**
+    *creation du personnage 2
+    */
+public class void player2(int nbGuerrier) {
+    int player==2;
+    system.out.println("Création du personnage du Joueur 2 %n Veuillez choisir la classe de votre personnage (1 : Guerrier, 2: Rôdeur, 3  : Mage)";
+}
+
+
